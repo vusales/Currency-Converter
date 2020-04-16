@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+:root {
+    --luisiana:'Lusitana', serif;
+}
+
+body {
+ background-image: url(img/forest.jpg);
+ background-size: cover;
+}
+
+
+.container , .containerSecond {
+   
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;  
+    flex-direction: column;
+    background-color: hsla(259, 100%, 2%, 0.43);
+    padding: 30px;
+    /* -webkit-box-shadow: 10px 10px 5px 0px rgba(168,164,114,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(168,164,114,1);
+    box-shadow: 10px 10px 5px 0px rgba(168,164,114,1); */
+    font-family: var(--luisiana) !important;
+    color: rgb(252, 252, 119);
+
+}
+
+.container {
+    height: 300px;
+    margin-top: 3% !important; 
+    margin-bottom: 10px !important;
+}
+.containerSecond{
+    height: 100px;
+}
+.input {
+    width: 70%;
+    height: 50px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid  black !important;
+    font-size: 17px;
+    padding-left: 15px;
+    border-radius:30px;
+    background-color: hsla(54, 100%, 73%, 0.38);
+    font-family: var(--luisiana);
+    
+   
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: black !important;
+    
+}
+
+.input:hover {
+    border: 1.5px solid rgb(228, 243, 25) !important;
+}
+.card-title{
+    font-size:20px;
+    font-weight: bold;
+}

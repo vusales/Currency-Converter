@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTER-EXCHANGE RATES API</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>CURRENCY CONVERTER</h2>
+        <input type="number" id="amaunt" placeholder="MƏBLƏĞ" class="input" />
+
+        <select id="firstCurrency" class="input">
+            <option selected>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>CHF</option>
+            <option>ISK</option>
+            <option>NOK</option>
+            <option>HRK</option>
+            <option>RUB</option>
+            <option>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>
+            <option>CAD</option>
+            <option>CNY</option>
+            <option>HKD</option>
+            <option>IDR</option>
+            <option>ILS</option>
+            <option>INR</option>
+            <option>KRW</option>
+            <option>MXN</option>
+            <option>MYR</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>SGD</option>
+            <option>THB</option>
+            <option>ZAR</option>
+        </select>
+
+        <select id="secondCurrency" class="input">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>CHF</option>
+            <option>ISK</option>
+            <option>NOK</option>
+            <option>HRK</option>
+            <option>RUB</option>
+            <option selected>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>
+            <option>CAD</option>
+            <option>CNY</option>
+            <option>HKD</option>
+            <option>IDR</option>
+            <option>ILS</option>
+            <option>INR</option>
+            <option>KRW</option>
+            <option>MXN</option>
+            <option>MYR</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>SGD</option>
+            <option>THB</option>
+            <option>ZAR</option>
+        </select>
+    </div>
+    <div class="containerSecond">
+        <div>
+            <span class="card-title" id="outputFirst">USD</span>
+            <span>-</span>
+            <span class="card-title" id="outputSecond">TRY</span>
+        </div>
+
+        <input type="text"  class="input" name="outputResult" id="outputResult" placeholder="NƏTİCƏ" readonly />
+
+    </div>
+
+
+    <script src="currency.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+    
+    
+</body>
+
+</html>
